@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://omairansarii.com/sitemap-index.xml
+Host: https://omairansarii.com
