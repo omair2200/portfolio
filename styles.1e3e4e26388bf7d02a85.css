@@ -1,1 +1,0 @@
-.square{stroke-dasharray:800;stroke-dashoffset:800;animation:drawSquare 2s forwards}@keyframes drawSquare{to{stroke-dashoffset:0}}.appear{animation:appear 1s forwards;opacity:0}.o{animation-delay:2s}.a{animation-delay:3s}@keyframes appear{to{opacity:1}}
