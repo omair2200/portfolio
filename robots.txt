@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://omair2200.github.io/resume/sitemap-index.xml
+Sitemap: https://omair2200.github.io/sitemap-index.xml
 Host: https://omair2200.github.io
