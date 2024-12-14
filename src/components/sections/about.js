@@ -154,11 +154,6 @@ const About = () => {
               technologies.
             </p>
 
-            <p>
-              I'm currently on the lookout for a Python Developer position where I can leverage my
-              skills and expertise to solve complex challenges and drive innovation.
-            </p>
-
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
 
