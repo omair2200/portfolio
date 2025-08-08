@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://omair2200.github.io/portfolio/sitemap-index.xml
-Host: https://omair2200.github.io
+Sitemap: https://omairansarii.com/sitemap.xml
+Host: https://omairansarii.com
