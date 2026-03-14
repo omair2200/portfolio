@@ -169,7 +169,7 @@ const Education = () => {
     query {
       education: allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/content/education/" } }
-        sort: { fields: [frontmatter___date], order: DESC }
+        sort: { frontmatter: { date: DESC } }
       ) {
         edges {
           node {
