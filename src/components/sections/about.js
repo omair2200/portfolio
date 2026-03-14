@@ -127,11 +127,13 @@ const About = () => {
 
   const skills = [
     'Python',
-    'Manual Testing',
-    'Data Analysis & Preprocessing',
-    'Database Management',
-    'DevOps',
-    'NLP',
+    'Machine Learning / DL',
+    'Docker & Kubernetes',
+    'Spring Boot & REST APIs',
+    'NLP (BERT, LSTM)',
+    'Spark & Big Data',
+    'React & JavaScript',
+    'CI/CD & Jenkins',
   ];
 
   return (
@@ -142,21 +144,23 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Omair Ansari and I enjoy creating data-driven solutions. My interest
-              in software development started back in my college days when I decided to dive into
-              programming and data science.
+              Hello! My name is Omair Ansari &mdash; a Data Scientist &amp; Software Engineer who
+              enjoys building machine-learning systems and scalable applications. My passion for
+              data and software started during my undergrad in Computer Science (AI &amp; ML) at
+              UPES.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at Tivo (Xperi) as a QA
-              Tester and Software Developer, and at Pivony as a Data Scientist. My main focus these
-              days is on building efficient, scalable solutions using Python and various other
-              technologies.
+              I’ve had the privilege of working at TiVo (Xperi) as both a Software Developer and QA
+              Engineer, at Pivony as a Data Scientist, and co-founding Locale Lift to deliver
+              digital solutions for local businesses. I’m currently a Research Assistant at Thompson
+              Rivers University focused on medical image segmentation using meta-heuristic
+              optimization.
             </p>
 
             <p>
-              I'm currently on the lookout for a Python Developer position where I can leverage my
-              skills and expertise to solve complex challenges and drive innovation.
+              Pursuing my MSc in Data Science at TRU and open to opportunities where I can leverage
+              ML, data pipelines, and automation to drive innovation.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

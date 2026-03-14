@@ -61,13 +61,13 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Omair Ansari.</h2>;
-  const three = <h3 className="big-heading">I build things with Python.</h3>;
+  const three = <h3 className="big-heading">I build things for data & the web.</h3>;
   const four = (
     <>
       <p>
-        I’m a Python Developer specializing in creating and optimizing data-driven solutions.
-        Currently, I’m looking for opportunities to leverage my skills and expertise to solve
-        complex challenges and drive innovation.
+        Data Scientist &amp; Software Engineer combining machine-learning expertise with rigorous
+        quality automation. Currently pursuing an MSc in Data Science at Thompson Rivers University
+        and working as a Research Assistant on medical image segmentation.
       </p>
     </>
   );
