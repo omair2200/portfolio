@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql, withPrefix } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import sr from '@utils/sr';
@@ -281,13 +281,13 @@ const StyledProject = styled.li`
     @media (max-width: 768px) {
       grid-column: 1 / -1;
       height: 100%;
-      opacity: 0.25;
+      opacity: 0.7;
     }
 
     a {
       width: 100%;
       height: 100%;
-      background-color: var(--green);
+      background-color: transparent;
       border-radius: var(--border-radius);
       vertical-align: middle;
 
@@ -304,32 +304,24 @@ const StyledProject = styled.li`
       }
 
       &:before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 3;
-        transition: var(--transition);
-        background-color: var(--navy);
-        mix-blend-mode: screen;
-        border-radius: var(--border-radius);
+        /* Removed overlay to show full image colors */
+        content: none;
       }
     }
 
     .img {
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1) brightness(90%);
+      /* Removed filters to show original banner quality */
+      filter: none;
+      mix-blend-mode: normal;
+      transition: var(--transition);
 
       @media (max-width: 768px) {
         object-fit: cover;
         width: auto;
         height: 100%;
-        filter: grayscale(100%) contrast(1) brightness(50%);
+        filter: none;
+        mix-blend-mode: normal;
       }
     }
   }
@@ -446,7 +438,7 @@ const Featured = () => {
                         width: '100%',
                         display: 'block',
                       }}>
-                      <source src={video} type="video/mp4" />
+                      <source src={withPrefix(video)} type="video/mp4" />
                     </video>
                   ) : image ? (
                     <GatsbyImage image={image} alt={title} className="img" />
