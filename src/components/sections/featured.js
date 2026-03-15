@@ -207,9 +207,10 @@ const StyledProject = styled.li`
     font-size: var(--fz-lg);
 
     @media (max-width: 768px) {
-      padding: 20px 0;
-      background-color: transparent;
+      padding: 20px 25px;
+      background-color: var(--light-navy);
       box-shadow: none;
+      border-radius: var(--border-radius);
 
       &:hover {
         box-shadow: none;
@@ -281,7 +282,7 @@ const StyledProject = styled.li`
     @media (max-width: 768px) {
       grid-column: 1 / -1;
       height: 100%;
-      opacity: 0.7;
+      opacity: 0.25;
     }
 
     a {
