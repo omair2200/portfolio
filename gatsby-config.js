@@ -7,7 +7,7 @@ module.exports = {
     title: 'Omair Ansari',
     description:
       'Omair Ansari is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://omair2200.github.io/portfolio', // No trailing slash allowed!
+    siteUrl: 'https://omair22.github.io/portfolio', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@omairansarii',
   },

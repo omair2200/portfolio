@@ -2,7 +2,7 @@
 date: '2024-06-01'
 title: 'Canadian Rental Price Predictor'
 cover: '../projects/images/house-price-banner.png'
-github: 'https://github.com/omair2200/portfolio/tree/main/content/projects/housing-price-predictor'
+github: 'https://github.com/omair22/portfolio/tree/main/content/projects/housing-price-predictor'
 external: '/housing-predictor'
 tech:
   - Python
